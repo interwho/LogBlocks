@@ -45,4 +45,4 @@ class RequestGenerator(object):
 if __name__ == '__main__':
     generator = RequestGenerator('http://45.79.134.56')
 
-    generator.make_random_requests(10)
+    generator.make_random_requests(1000)
